@@ -1,0 +1,13 @@
+{
+"name": "My Extension",
+"version": "2.1",
+"description": "Gets information from Google.",
+"icons": { "128": "icon_128.png" },
+"background_page": "bg.html",
+"permissions": ["http://*.google.com/", "https://*.google.com/"],
+"browser_action": {
+"default_title": "",
+"default_icon": "icon_19.png",
+"default_popup": "popup.html"
+}
+}
